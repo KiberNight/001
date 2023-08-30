@@ -1,0 +1,17 @@
+data= 29, 8, 2023
+print(data)
+
+data_dd=int(input("день"))
+data_mm=int(input("месяц"))
+data_gg=int(input("год"))
+
+if data_gg<=2015:
+    print("Добро пожаловать")
+
+elif 1<=data_mm>12:
+    print("ошибка")
+elif 1<=data_dd>31:
+    print("ошибка")
+
+else:
+    print("ошибка")
